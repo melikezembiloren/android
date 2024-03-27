@@ -21,10 +21,12 @@ being declared under the <activity> tag in the manifest file.
 
 Every Activity has a special lifecycle.
 
-## Activity Life Cycle
+## Activity Lifecycle
 Simplified Illustration of Activity Lifecycle:
+It indicates under which circumstances which methods are called.
 
-      
+
+            
 [![image](https://r.resimlink.com/zuhlo.png)](https://resimlink.com/zuhlo)
 
 
