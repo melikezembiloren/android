@@ -7,7 +7,10 @@ Intent(this@MainActivity, SecondActivity::class.java)
 val intent = Intent(this@MainActivity, SecondActivity::class.java)
 ```
 
-```startActivity(intent)``` ------> It starts the switching to  activity
+```
+startActivity(intent)
+```
+startActivity, starts the switching to  activity
 
 [![image](https://i.hizliresim.com/3dawpyb.png)](https://hizliresim.com/3dawpyb)
 
@@ -29,7 +32,9 @@ Intent(this@MainActivity, SecondActivity::class.java)
 
 ### Reveiving Data
 
-```val receivedInfo = intent.getStringExtra(KEY)```
+```
+val receivedInfo = intent.getStringExtra(KEY)
+```
 
 get...Extra : It changes depending on the type of data received
 
