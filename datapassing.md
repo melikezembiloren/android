@@ -8,5 +8,5 @@ val intent = Intent(this@MainActivity, SecondActivity::class.java)`
 
 `startActivity(intent)` ------> It starts the switching to  activity
 
-[![image](https://hizliresim.com/3dawpyb)](https://i.hizliresim.com/3dawpyb.png)
+[![image](https://i.hizliresim.com/3dawpyb.png)](https://hizliresim.com/3dawpyb)
 
