@@ -10,3 +10,21 @@ val intent = Intent(this@MainActivity, SecondActivity::class.java)`
 
 [![image](https://i.hizliresim.com/3dawpyb.png)](https://hizliresim.com/3dawpyb)
 
+# Data Passing Between Activities
+
+
+### Sending Data
+`val intent = Intent(this@MainActivity, SecondActivity::class.java)
+intent.putExtra("KEY", "data")
+startActivity(intent)`
+
+`Intent(this@MainActivity, SecondActivity::class.java)
+            .apply{startActivity(this.putExtra(KEY, data))}`
+
+### Reveiving Data
+
+`val receivedInfo = intent.getStringExtra(KEY)`
+
+get...Extra : It changes depending on the type of data received
+
+
