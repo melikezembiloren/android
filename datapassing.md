@@ -3,8 +3,9 @@ The intent is used for switch between activities. In Android development, the In
 
 Intent(this@MainActivity, SecondActivity::class.java)
 
-`
-val intent = Intent(this@MainActivity, SecondActivity::class.java)`
+```
+val intent = Intent(this@MainActivity, SecondActivity::class.java)
+```
 
 `startActivity(intent)` ------> It starts the switching to  activity
 
@@ -14,12 +15,17 @@ val intent = Intent(this@MainActivity, SecondActivity::class.java)`
 
 
 ### Sending Data
-`val intent = Intent(this@MainActivity, SecondActivity::class.java)
-intent.putExtra("KEY", "data")
-startActivity(intent)`
 
-`Intent(this@MainActivity, SecondActivity::class.java)
-            .apply{startActivity(this.putExtra(KEY, data))}`
+```
+val intent = Intent(this@MainActivity, SecondActivity::class.java)
+intent.putExtra("KEY", "data")
+startActivity(intent)
+```
+
+```
+Intent(this@MainActivity, SecondActivity::class.java)
+            .apply{startActivity(this.putExtra(KEY, data))}
+```
 
 ### Reveiving Data
 
