@@ -28,8 +28,11 @@ kotlinOptions {
         jvmTarget = "17"
     }
 
+```
+
 Add below given dependency inside dependencies section:
 ```
+
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
 }
