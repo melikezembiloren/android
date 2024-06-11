@@ -45,4 +45,18 @@ kapt{
 }
 ```
 
+### HILT IN ACTION
+
+# 1. @HiltAndroidApp
+  First, replace your default application with a Dagger Hilt annotated one. The @HiltAndroidApp annotation is used to mark the application class in project. 
+
+  This annotation is crucial for initalizing the Hilt component. When you apply @HiltAndroidApp to your Application class, Hilts sets up the necessary Dagger 2 components and modules for dependency injection.
+
+  ```
+  @HiltAndroidApp
+  class MyApplication : Application()
+  {
+    ...
+  }
+
 
